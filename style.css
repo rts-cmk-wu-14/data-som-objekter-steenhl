@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+figcaption,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+figure.hero-fig {
+    width: 100%;
+    display: grid;
+}
+
+figure.hero-fig img {
+    grid-area: 1/1;
+    /* grid-column: 1 / 1;
+    grid-row: 1 / 1; */
+}
+
+figure.hero-fig figcaption {
+    grid-area: 1/1;
+    /* grid-column: 1 /1;
+    grid-row: 1 /1; */
+    z-index: 2;
+
+    font-size: 20px;
+    margin: 20% 0 0 20px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 20px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+figure.hero-fig .hero-text-part2 {
+    color: #F78065;
+    padding: 0 3px;
+}
+
+.hero-paragaf {}
