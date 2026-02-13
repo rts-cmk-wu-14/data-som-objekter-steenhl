@@ -8,4 +8,3 @@ const facilitiesDom = wrapperDom.querySelector(".facilities")
 const sitesDom = wrapperDom.querySelector(".sites")
 const advantagesDom = wrapperDom.querySelector(".advantages")
 
-// heroModul(heroDom)
