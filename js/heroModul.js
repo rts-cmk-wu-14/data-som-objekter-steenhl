@@ -1,11 +1,11 @@
-// const heroDom = document.querySelector(".hero")
-const heroArray = hero.headline.split(" ")
+export default function heroModul(heroDom) {
 
-let part1Text = heroArray.slice(0, 4).join(" ")
-let part2Text = heroArray.slice(5, 8).join(" ")
-let part3Text = heroArray.slice(8).join(" ")
+    const heroArray = hero.headline.split(" ")
+    let part1Text = heroArray.slice(0, 4).join(" ")
+    let part2Text = heroArray.slice(5, 8).join(" ")
+    let part3Text = heroArray.slice(8).join(" ")
 
-const heroString = /*html*/`
+    const heroString = /*html*/`
  <figure>
     <img src="${hero.image}" alt="${hero.headline}">
     <figcaption>
@@ -21,4 +21,6 @@ const heroString = /*html*/`
     </figcaption>
 </figure>`
 
-heroDom.insertAdjacentHTML("afterbegin", heroString)
+    heroDom.insertAdjacentHTML("afterbegin", heroString)
+
+}

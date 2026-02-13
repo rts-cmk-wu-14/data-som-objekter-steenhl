@@ -1,4 +1,4 @@
-const servicesDom = document.querySelector(".services")
+// const servicesDom = document.querySelector(".services")
 
 let servicesTemplate = /*html*/ `${services.map((service) => {
     return /*html*/ `
@@ -17,3 +17,4 @@ let servicesTemplate = /*html*/ `${services.map((service) => {
 
 servicesDom.insertAdjacentHTML("afterbegin", servicesTemplate)
 
+// const wrapper = /*html*/`<ul>${services.map(() => /*html*/`<li>${services.headline}</li>`).join("")}</ul>`
